@@ -148,5 +148,31 @@ main section{
   font-weight: 600;
   margin-bottom: 20px;
 }
+.resume-download-cv{
+  margin: 50px;
+}
+div hr{
+  margin-top: 30p;
+}
+footer{
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-colum{
+  width: 50%;
+}
+footer input[type="text"], input[type="email"],textarea{
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px ;
+  border: none;
+  margin-bottom: 10px;
+
+
+}
 
 
