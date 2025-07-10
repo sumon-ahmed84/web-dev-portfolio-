@@ -139,14 +139,28 @@ main section{
   gap: 24px;
 }
 
-.experience-dexcription,experience-sub-title{
-  color: #757575;
+.experience-dexcription{
+  color: #474747;
+  
+}
+.experience-title{
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+.resume-column-title{
+  font-size: 30px;
+  font-weight: 700;
+  
 }
 
 .experience-sub-title{
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 20px;
+  margin-top: 0px;
+  color: #757575;
 }
 .resume-download-cv{
   margin: 50px;
