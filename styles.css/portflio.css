@@ -125,6 +125,7 @@ main section{
 
 .skills-container{
   display: flex;
+  flex-direction: column;
   gap: 30px;
 }
 
@@ -185,8 +186,44 @@ footer input[type="text"], input[type="email"],textarea{
   padding: 10px 20px ;
   border: none;
   margin-bottom: 10px;
+}
 
+.hide{
+  display: none;
+}
 
+@media screen and (max-width:576px) {
+  .skills-container, .resume-container,
+  .about-items,.banner,
+   footer,nav,nav>ul {
+    flex-direction: column;
+  }
+  nav>ul{
+    gap: 20px;
+  }
+  .btn-primary{
+    margin-bottom: 20px;
+  }
+  .banner{
+    margin: 20px;
+  }
+  .header{
+    background-image: none;
+  }
+  .banner-profile-pic {
+    width: 100%;
+  }
+footer,.about {
+  padding: 20px;
+}
+.footer-colum{
+  width: 100%;
+}
+ footer input[type="text"],
+  input[type="email"],
+  textarea{
+  width: calc(100% - 40px);
+ }
 }
 
 
